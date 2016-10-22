@@ -11,7 +11,9 @@ TODO
 Role Variables
 --------------
 
-TODO
+* php_phpstorm_install: true
+* php_phpstorm_version: 2016.2.1
+* php_phpstorm_build: 162.1889.1
 
 Dependencies
 ------------
@@ -24,7 +26,7 @@ Example Playbook
 ```
 - hosts: servers
   roles:
-      - { role: kurron.php-developer, python_pycharm_version: 2016.2.3 }
+      - { role: kurron.php-developer, php_phpstorm_version: 2016.2.1, php_phpstorm_build: 162.1889.1 }
 ```
 
 License
