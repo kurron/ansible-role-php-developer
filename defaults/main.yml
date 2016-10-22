@@ -1,7 +1,8 @@
 ---
-python_download_directory: Downloads
-python_software_directory: Software
+php_download_directory: Downloads
+php_software_directory: Software
 
-python_pycharm_install: true
-python_pycharm_version: 2016.2.3
+php_phpstorm_install: true
+php_phpstorm_version: 2016.2.1
+php_phpstorm_build: 162.1889.1
 
