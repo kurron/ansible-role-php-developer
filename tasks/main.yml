@@ -36,7 +36,7 @@
       dest: "{{ansible_user_dir}}/Desktop/phpstorm.desktop"
       owner: "{{ansible_user_uid}}"
       group: "{{ansible_user_gid}}"
-      mode: 0555
+      mode: 0755
   when: php_phpstorm_install
 
 - name: Set Global Environment To Have PhpStorm Use Shared JDK

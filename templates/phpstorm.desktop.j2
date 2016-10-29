@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=PhpStorm
 Comment=PHP IDE
-Exec={{ansible_user_dir}}/Software/phpstorm/bin/phpstorm.sh
+Exec=env PHPSTORM_JDK={{jdk_global_jdk_directory}} {{ansible_user_dir}}/Software/phpstorm/bin/phpstorm.sh
 Icon={{ansible_user_dir}}/Software/phpstorm/bin/webide.png
 Path=
 Terminal=false
