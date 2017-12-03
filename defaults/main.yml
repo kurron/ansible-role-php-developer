@@ -1,6 +1,5 @@
 ---
 php_phpstorm_install: true
-php_phpstorm_version: 2016.2.1
-php_phpstorm_build: 162.1889.1
+php_phpstorm_version: 2017.3
+php_phpstorm_build: 173.3727.138
 php_phpstorm_share_jdk: true
-
